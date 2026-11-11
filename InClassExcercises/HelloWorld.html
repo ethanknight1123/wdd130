@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is a webpage?</title>
+    </head> 
+    <script>
+        var i = 0;
+        function ChangeColor() {
+            switch (i){
+                case 0:
+                    document.body.style.backgroundColor = "blue";
+
+                    document.getElementById("button1").style.backgroundColor = "red";
+                    document.getElementById("button1").style.color = "white";
+
+                    document.getElementById("world").style.color = "white";
+                    i++;
+                    break;
+                case 1:
+                    document.body.style.backgroundColor = "red";
+
+                    document.getElementById("button1").style.backgroundColor = "white";
+                    document.getElementById("button1").style.color = "blue";
+
+                    document.getElementById("world").style.color = "blue";
+                    i++;
+                    break;
+                default:
+                    document.body.style.backgroundColor = "white";
+
+                    document.getElementById("button1").style.backgroundColor = "blue";
+                    document.getElementById("button1").style.color = "red";
+
+                    document.getElementById("world").style.color = "red";
+                    i = 0;
+                    break;
+
+            }
+        }
+    </script>
+    <body>
+        <p id="world">hello world</p>
+        <h1>this is a heading</h1>
+        <!-- placeholder, commenting -->
+        <!-- TODO: make comments private -->
+        <button id="button1" onclick="ChangeColor()">Change Color</button>
+    </body>
+</html>

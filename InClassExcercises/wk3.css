@@ -1,0 +1,26 @@
+body {
+    color: #0ff1ce;
+    background-color: #be16e0;
+}
+h1 {
+    color: #BE4;
+    margin: 100px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#whateverNameYouWantJAJAJAJAJAJ {
+    color: red;
+}
+
+p.subtitle-text {
+    color: blue;
+}
+
+div p {
+    color: orange;
+}
+
+div p span {
+    color: purple;
+}

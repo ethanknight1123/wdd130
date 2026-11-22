@@ -1,0 +1,44 @@
+
+#loadout {
+  border: 1px solid black;
+}
+
+#charm-menu {
+  display: grid;
+  grid-template-columns: repeat(21, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  column-gap: 10px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-image: url(/images/Background.png);
+  background-size: 100%;
+}
+.charms {
+  grid-column: span 2;
+  width: 100%;
+  border-radius: 100%;
+
+}
+.charms img{
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.charms img:hover {
+  background-color: white;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.281), white );
+  border: 2px rgba(255, 255, 255, 0.116) solid ; 
+  width: calc(100% - 4px);
+
+}
+
+#unbreakable-heart, #hiveblood {
+  grid-column: 2/4;
+}
+
+#carefree-melody {
+  grid-column: 17/19;
+}

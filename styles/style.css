@@ -1,7 +1,6 @@
 
 body {
   background: linear-gradient(to left, black, #23325c , #416aaf , #23325c , black );
-  min-height: 100vh;
   color: white;
   padding: 0;
   margin: 0;
